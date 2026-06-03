@@ -124,7 +124,7 @@ body {
   min-height: 80vh;
   height: 700px;
 
-  background-image: url('${import.meta.env.BASE_URL}herobg.png');
+  background-image: url('herobg.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

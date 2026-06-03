@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 
 const Hero = () => {
-  const [image, setImage] = useState('${import.meta.env.BASE_URL}chips.png');
-
+    const [image, setImage] = useState(
+      `${import.meta.env.BASE_URL}chips.png`
+    );
   return (
     <section className="hero">
       <div className="hero-left">
@@ -23,8 +24,10 @@ const Hero = () => {
           src={image}
           alt="Snack Fit Chips"
           className="hero-image"
-          onMouseEnter={() => setImage('/potato.png')}
-          onMouseLeave={() => setImage('/chips.png')}
+          onMouseEnter={() =>
+          setImage(`${import.meta.env.BASE_URL}potato.png`)}
+          onMouseLeave={() =>
+          setImage(`${import.meta.env.BASE_URL}chips.png`)}
         />
 
         <div className="hero-buttons">
