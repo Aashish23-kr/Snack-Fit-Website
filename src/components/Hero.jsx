@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const Hero = () => {
-  const [image, setImage] = useState('/chips.png');
+  const [image, setImage] = useState('${import.meta.env.BASE_URL}chips.png');
 
   return (
     <section className="hero">
