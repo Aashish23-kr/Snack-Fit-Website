@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-left">
-        <img src="./logo.png" alt="Snack Fit Logo" className="logo" />
+        <img  src={`${import.meta.env.BASE_URL}logo.png`} alt="Snack Fit Logo" className="logo" />
         <h2 className="brand-name">Snack Fit</h2>
       </div>
 

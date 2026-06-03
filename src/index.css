@@ -124,7 +124,7 @@ body {
   min-height: 80vh;
   height: 700px;
 
-  background-image: url('herobg.png');
+  background-image: url('/Snack-Fit-Website/herobg.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
