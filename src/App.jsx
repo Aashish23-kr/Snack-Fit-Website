@@ -22,35 +22,39 @@ function App() {
       
       <div className="products">
         <Card
-        image="/chips.png"
-        name="Banana Chips"
-        rating="4.5"
-        price="149"
-      />
-      <Card
-        image="/mango.png"
-        name="Mango Chips"
-        rating="4.5"
-        price="200"
-      />
-      <Card
-        image="/apple.png"
-        name="Apple Chips"
-        rating="4.2"
-        price="149"
-      />
-      <Card
-        image="/sb.png"
-        name="Strawberry Chips"
-        rating="4.2"
-        price="180"
-      />
-      <Card
-        image="/potato.png"
-        name="Potato Chips"
-        rating="4.0"
-        price="149"
-      />   
+          image={`${import.meta.env.BASE_URL}chips.png`}
+          name="Banana Chips"
+          rating="4.5"
+          price="149"
+        />
+
+        <Card
+          image={`${import.meta.env.BASE_URL}mango.png`}
+          name="Mango Chips"
+          rating="4.5"
+          price="200"
+        />
+
+        <Card
+          image={`${import.meta.env.BASE_URL}apple.png`}
+          name="Apple Chips"
+          rating="4.2"
+          price="149"
+        />
+
+        <Card
+          image={`${import.meta.env.BASE_URL}sb.png`}
+          name="Strawberry Chips"
+          rating="4.2"
+          price="180"
+        />
+
+        <Card
+          image={`${import.meta.env.BASE_URL}potato.png`}
+          name="Potato Chips"
+          rating="4.0"
+          price="149"
+        />
       </div>
 
       <Service />
